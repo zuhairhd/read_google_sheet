@@ -1,16 +1,49 @@
-# read_google_sheet
+# Voltic Scores App
 
-A new Flutter project.
+The Voltic Scores app is a Flutter application that fetches and displays scores from a Google Sheets API. It allows users to view different scenarios and their associated high scores.
+
+## Features
+
+- Fetches data from a Google Sheets API.
+- Displays scenarios and their high scores in a list format.
+- Handles errors gracefully with appropriate error messages.
+
+## Screenshots
+
+[Add screenshots of your app here]
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run the Voltic Scores app on your local machine, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone this repository:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+   ```bash
+   git clone https://github.com/zuhairhd/read_google_sheet.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Navigate to the project directory:
+
+##bash
+Copy code
+cd read_google_sheet
+
+##Install dependencies:
+
+flutter pub get
+Run the app:
+
+flutter run
+
+##Dependencies
+The Voltic Scores app uses the following dependencies:
+http: For making HTTP requests to the Google Sheets API.
+flutter/material.dart: Flutter's material design widgets for building the user interface.
+
+##Contributing
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
+
+##License
+This project is licensed under the MIT License.
+
+
+
