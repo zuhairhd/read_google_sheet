@@ -21,28 +21,24 @@ To run the Voltic Scores app on your local machine, follow these steps:
    ```bash
    git clone https://github.com/zuhairhd/read_google_sheet.git
 
-Navigate to the project directory:
-
-##bash
-Copy code
+## Navigate to the project directory:
 cd read_google_sheet
 
-##Install dependencies:
-
+## Install dependencies:
 flutter pub get
-Run the app:
 
+## Run the app:
 flutter run
 
-##Dependencies
+## Dependencies
 The Voltic Scores app uses the following dependencies:
 http: For making HTTP requests to the Google Sheets API.
 flutter/material.dart: Flutter's material design widgets for building the user interface.
 
-##Contributing
+## Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
 
-##License
+## License
 This project is licensed under the MIT License.
 
 
